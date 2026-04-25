@@ -436,7 +436,7 @@ export default function Portfolio() {
             
             <div>
               <p className="text-slate-400 mb-8 text-lg">
-                I am currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                I am currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you soon!
               </p>
               
               <div className="space-y-6">
