@@ -1,0 +1,45 @@
+name: Build and Deploy Portfolio
+
+# This tells GitHub to run this script whenever you push to the 'main' branch
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Grab your latest code from GitHub
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Step 2: Set up the correct Node.js version
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Step 3: Install all your project packages
+      - name: Install Dependencies
+        run: npm install
+
+      # Step 4: Run tests (if you have them configured, otherwise it safely skips)
+      - name: Run Tests
+        run: npm run test --if-present
+
+      # Step 5: Build the optimized React application
+      - name: Build Project
+        run: npm run build
+
+      # Step 6: Securely copy the build files to your Azure server
+      - name: Deploy to Azure Server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USERNAME }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          source: "dist/*"
+          target: "/var/www/portfolio.awaisfarhan.me"
+          strip_components: 1
