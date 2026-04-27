@@ -265,7 +265,7 @@ export default function Portfolio() {
                 Available for opportunities
               </div>
               <h1 className="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-6">
-                Tayyab Ali
+                Awais Farhan Alam
               </h1>
               <h2 className="text-2xl md:text-3xl text-slate-400 font-light mb-8 mx-auto md:mx-0">
                 Software Engineer | <span className="text-white font-medium">Full-Stack Developer</span> | DevOps Enthusiast
