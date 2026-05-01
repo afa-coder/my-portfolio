@@ -264,9 +264,9 @@ export default function Portfolio() {
                 <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
                 Available for opportunities
               </div>
-              <h1 className="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-6">
+              <h2 className="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-6">
                 Awais Farhan Alam
-              </h1>
+              </h2>
               <h2 className="text-2xl md:text-3xl text-slate-400 font-light mb-8 mx-auto md:mx-0">
                 Software Engineer | <span className="text-white font-medium">Full-Stack Developer</span> | DevOps Enthusiast
               </h2>
