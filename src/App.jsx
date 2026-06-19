@@ -53,8 +53,18 @@ const PROJECTS = [
     github: "https://github.com",
     demo: "https://demo.com"
   },
+ {
+  id: 3,
+  title: "Social Scheduler",
+  shortDesc: "An intelligent, autopilot assistant that helps creators write, design, and schedule social media content.",
+  fullDesc: "I built this full-stack application to bridge the gap between creative brainstorming and automation. Using TypeScript, React, and Express, I integrated Google Gemini and Leonardo.ai to help users generate high-quality captions and images in seconds. Then, I engineered a continuous automated backend service that ensures scheduled content is published seamlessly across multiple social networks without manual intervention.", 
+  role: "Full Stack Developer",
+  tech: ["React", "Express", "TypeScript", "TailwindCSS", "MongoDB", "Vite"],
+  github: "https://github.com/awaisfarhan/social-scheduler",
+  demo: "https://socialscheduler.awaisfarhan.me"
+},
   {
-    id: 3,
+    id: 4,
     title: "University Management System",
     shortDesc: "Comprehensive portal for academic administration and student tracking.",
     fullDesc: "Built a robust monolithic backend serving a decoupled React frontend to manage course registrations, grading, and faculty scheduling. Implemented role-based access control (RBAC).",
@@ -64,7 +74,7 @@ const PROJECTS = [
     demo: "https://demo.com"
   },
   {
-    id: 4,
+    id: 5,
     title: "Real-time Chatting Application",
     shortDesc: "Low-latency messaging app with persistent chat history and presence indicators.",
     fullDesc: "Engineered a WebSocket-based messaging platform supporting group chats, media sharing, and read receipts. Optimized database queries to handle high-throughput message persistence.",
@@ -74,7 +84,7 @@ const PROJECTS = [
     demo: "https://demo.com"
   },
   {
-    id: 5,
+    id: 6,
     title: "E-Commerce Deployment Pipeline",
     shortDesc: "Containerized e-commerce platform with automated zero-downtime deployments.",
     fullDesc: "Dockerized a legacy e-commerce application and established a robust CI/CD pipeline. Reduced deployment times by 40% and ensured 99.9% uptime during rolling updates.",
@@ -84,7 +94,7 @@ const PROJECTS = [
     demo: "https://demo.com"
   },
   {
-    id: 6,
+    id: 7,
     title: "Online Job Portal System",
     shortDesc: "Platform connecting job seekers with tech companies, featuring AI resume parsing.",
     fullDesc: "Developed a full-stack job board where employers can post listings and candidates can apply. Integrated an external NLP API to automatically extract skills from uploaded PDFs.",
@@ -94,7 +104,7 @@ const PROJECTS = [
     demo: "https://demo.com"
   },
   {
-    id: 7,
+    id: 8,
     title: "Inventory Management System",
     shortDesc: "SaaS dashboard for tracking stock levels and supply chain logistics.",
     fullDesc: "Created a modern dashboard with real-time analytics, predictive restock alerts, and barcode scanning integration. Focused heavily on client-side performance and responsive UI.",
@@ -104,7 +114,7 @@ const PROJECTS = [
     demo: "https://demo.com"
   },
   {
-    id: 8,
+    id: 9,
     title: "School Management System",
     shortDesc: "Digital infrastructure for primary and secondary school operations.",
     fullDesc: "Architected a multi-tenant system for schools to manage attendance, fees, and parent-teacher communications. Built with strict data isolation and secure payment gateways.",
