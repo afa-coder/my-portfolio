@@ -63,8 +63,18 @@ const PROJECTS = [
   github: "https://github.com/awaisfarhan/social-scheduler",
   demo: "https://socialscheduler.awaisfarhan.me"
 },
-  {
+{
     id: 4,
+    title: "Automated Telecom Quiz Platform",
+    shortDesc: "High-performance dynamic web application for publishing daily telecom quizzes and blog content.",
+    fullDesc: "Developed a secure full-stack platform featuring a decoupled Next.js frontend and an Express backend API. Configured Prisma ORM with a PostgreSQL database, implemented strict TypeScript types, and deployed the ecosystem using PM2. Engineered strict CORS protection and forced dynamic server-side routing to guarantee instant, cache-free content updates.",
+    role: "Full-Stack & DevOps Engineer",
+    tech: ["Next.js", "Node.js", "Express", "TypeScript", "Prisma ORM", "PostgreSQL", "CI/CD pipeline","PM2"],
+    github: "https://github.com/afa-coder/telenor-quiz-app", // Replace with your repo link
+    demo: "https://telenorquiztoday.awaisfarhan.me"
+  },
+  {
+    id: 5,
     title: "University Management System",
     shortDesc: "Comprehensive portal for academic administration and student tracking.",
     fullDesc: "Built a robust monolithic backend serving a decoupled React frontend to manage course registrations, grading, and faculty scheduling. Implemented role-based access control (RBAC).",
@@ -74,7 +84,7 @@ const PROJECTS = [
     demo: "https://demo.com"
   },
   {
-    id: 5,
+    id: 6,
     title: "Real-time Chatting Application",
     shortDesc: "Low-latency messaging app with persistent chat history and presence indicators.",
     fullDesc: "Engineered a WebSocket-based messaging platform supporting group chats, media sharing, and read receipts. Optimized database queries to handle high-throughput message persistence.",
@@ -84,7 +94,7 @@ const PROJECTS = [
     demo: "https://demo.com"
   },
   {
-    id: 6,
+    id: 7,
     title: "E-Commerce Deployment Pipeline",
     shortDesc: "Containerized e-commerce platform with automated zero-downtime deployments.",
     fullDesc: "Dockerized a legacy e-commerce application and established a robust CI/CD pipeline. Reduced deployment times by 40% and ensured 99.9% uptime during rolling updates.",
@@ -94,7 +104,7 @@ const PROJECTS = [
     demo: "https://demo.com"
   },
   {
-    id: 7,
+    id: 8,
     title: "Online Job Portal System",
     shortDesc: "Platform connecting job seekers with tech companies, featuring AI resume parsing.",
     fullDesc: "Developed a full-stack job board where employers can post listings and candidates can apply. Integrated an external NLP API to automatically extract skills from uploaded PDFs.",
@@ -104,7 +114,7 @@ const PROJECTS = [
     demo: "https://demo.com"
   },
   {
-    id: 8,
+    id: 9,
     title: "Inventory Management System",
     shortDesc: "SaaS dashboard for tracking stock levels and supply chain logistics.",
     fullDesc: "Created a modern dashboard with real-time analytics, predictive restock alerts, and barcode scanning integration. Focused heavily on client-side performance and responsive UI.",
@@ -114,7 +124,7 @@ const PROJECTS = [
     demo: "https://demo.com"
   },
   {
-    id: 9,
+    id: 10,
     title: "School Management System",
     shortDesc: "Digital infrastructure for primary and secondary school operations.",
     fullDesc: "Architected a multi-tenant system for schools to manage attendance, fees, and parent-teacher communications. Built with strict data isolation and secure payment gateways.",
@@ -474,7 +484,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <p className="text-sm text-slate-500">Location</p>
-                    <p className="font-medium">Islamabad, Pakistan (Open to Remote)</p>
+                    <p className="font-medium">Islamabad, Pakistan (Open to remote, hybrid and on-site work)</p>
                   </div>
                 </div>
               </div>
