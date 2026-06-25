@@ -60,7 +60,7 @@ const PROJECTS = [
   fullDesc: "I built this full-stack application to bridge the gap between creative brainstorming and automation. Using TypeScript, React, and Express, I integrated Google Gemini and Leonardo.ai to help users generate high-quality captions and images in seconds. Then, I engineered a continuous automated backend service that ensures scheduled content is published seamlessly across multiple social networks without manual intervention.", 
   role: "Full Stack Developer",
   tech: ["React", "Express", "TypeScript", "TailwindCSS", "MongoDB", "Vite"],
-  github: "https://github.com/awaisfarhan/social-scheduler",
+  github: "https://github.com/afa-coder/socialscheduler",
   demo: "https://socialscheduler.awaisfarhan.me"
 },
 {
@@ -70,7 +70,7 @@ const PROJECTS = [
     fullDesc: "Developed a secure full-stack platform featuring a decoupled Next.js frontend and an Express backend API. Configured Prisma ORM with a PostgreSQL database, implemented strict TypeScript types, and deployed the ecosystem using PM2. Engineered strict CORS protection and forced dynamic server-side routing to guarantee instant, cache-free content updates.",
     role: "Full-Stack & DevOps Engineer",
     tech: ["Next.js", "Node.js", "Express", "TypeScript", "Prisma ORM", "PostgreSQL", "CI/CD pipeline","PM2"],
-    github: "https://github.com/afa-coder/telenor-quiz-app", // Replace with your repo link
+    github: "https://github.com/afa-coder/telenorquizapp", // Replace with your repo link
     demo: "https://telenorquiztoday.awaisfarhan.me"
   },
   {
