@@ -24,12 +24,12 @@ const Linkedin = ({ size = 24 }) => (
   </svg>
 );
 const SKILLS = [
-  { category: "Frontend", icon: <Code2 size={20} />, items: ["HTML/CSS/JS", "React", "Vite", "Next.js"] },
-  { category: "Backend", icon: <Terminal size={20} />, items: ["Node.js", "Express.js"] },
-  { category: "Programming", icon: <Code2 size={20} />, items: ["C", "C++", "Python"] },
-  { category: "DevOps & Cloud", icon: <Cloud size={20} />, items: ["Deployment", "Hosting", "Azure Basics", "CI/CD"] },
-  { category: "Database", icon: <Database size={20} />, items: ["SQL", "NoSQL", "MongoDB", "PostgreSQL"] },
-  { category: "Soft Skills", icon: <User size={20} />, items: ["Leadership", "Communication", "Critical Thinking"] },
+  { category: "Frontend", icon: <Code2 size={20} />, items: ["HTML/CSS/JS", "React", "Vite", "Next.js", "Tailwind CSS"] },
+  { category: "Backend", icon: <Terminal size={20} />, items: ["Node.js", "Express.js", "NestJS", "Python", "REST APIs"] },
+  { category: "Programming", icon: <Code2 size={20} />, items: ["Java", "C", "C++", "Python", "JavaScript"] },
+  { category: "DevOps & Cloud", icon: <Cloud size={20} />, items: ["AWS Practices", "Docker", "Azure Practices", "CI/CD", "System Design", "AI Automation"] },
+  { category: "Database", icon: <Database size={20} />, items: ["SQL", "NoSQL", "MongoDB", "PostgreSQL", "Prisma"] },
+  { category: "Soft Skills", icon: <User size={20} />, items: ["Leadership", "Communication", "Critical Thinking", "Problem Solving"] },
 ];
 
 const PROJECTS = [
