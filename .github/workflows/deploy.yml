@@ -41,5 +41,5 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "dist/*"
-          target: "/var/www/portfolio.awaisfarhan.me"
+          target: "/var/www/myportfolio.byosecure.online"
           strip_components: 1

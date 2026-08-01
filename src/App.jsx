@@ -61,7 +61,7 @@ const PROJECTS = [
   role: "Full Stack Developer",
   tech: ["React", "Express", "TypeScript", "TailwindCSS", "MongoDB", "Vite"],
   github: "https://github.com/afa-coder/socialscheduler",
-  demo: "https://socialscheduler.awaisfarhan.me"
+  demo: "https://socialscheduler.byosecure.online"
 },
 {
     id: 4,
@@ -71,7 +71,7 @@ const PROJECTS = [
     role: "Full-Stack & DevOps Engineer",
     tech: ["Next.js", "Node.js", "Express", "TypeScript", "Prisma ORM", "PostgreSQL", "CI/CD pipeline","PM2"],
     github: "https://github.com/afa-coder/telenorquizapp", // Replace with your repo link
-    demo: "https://telenorquiztoday.awaisfarhan.me"
+    demo: "https://mytelenorquiztoday.live"
   },
   {
     id: 5,
@@ -131,6 +131,46 @@ const PROJECTS = [
     role: "System Architect",
     tech: ["Next.js", "Prisma", "PostgreSQL", "Stripe"],
     github: "https://github.com",
+    demo: "https://demo.com"
+  },
+  {
+    id: 11,
+    title: "AI-Based Unique Company Name Generator",
+    shortDesc: "Python CLI tool that generates brandable company names and checks domain availability.",
+    fullDesc: "Built an AI-driven CLI utility that creates unique, brandable company names from a seed word and industry. The tool validates names through length, character, blacklist, pronounceability, and brandability checks, then performs async domain availability lookups via DNS, RDAP, and WHOIS.",
+    role: "Python Engineer",
+    tech: ["Python", "questionary", "rich", "SQLite", "CSV", "Excel"],
+    github: "https://github.com/afa-coder/AI-Based-Unique-Company-Name-Generator",
+    demo: "https://github.com/afa-coder/AI-Based-Unique-Company-Name-Generator"
+  },
+  {
+    id: 12,
+    title: "AI Finance Platform Overview",
+    shortDesc: "Full-stack finance dashboard with Next.js, Prisma, Clerk, Inngest, and AI integrations.",
+    fullDesc: "Designed a finance platform that tracks accounts, transactions, budgets, and recurring payments. The app uses Next.js App Router, Tailwind CSS, Prisma with PostgreSQL, Clerk auth, Inngest background functions, ArcJet / Google Gemini AI, and Resend email templates.",
+    role: "Full-Stack Developer",
+    tech: ["Next.js", "TailwindCSS", "Prisma", "PostgreSQL", "Clerk", "Google Gemini"],
+    github: "https://github.com/afa-coder/ai-finance-platform",
+    demo: "https://github.com/afa-coder/ai-finance-platform"
+  },
+  {
+    id: 13,
+    title: "CyberaHAT 🎩🤖",
+    shortDesc: "AI-first cybersecurity education and assessment platform powered by Google Gemma.",
+    fullDesc: "Developed a cybersecurity education platform with an AI tutor, adaptive quizzes, lab assistant, instructor analytics, and interactive Docker labs. The architecture combines Next.js frontend, NestJS backend, Prisma, PostgreSQL, Redis, BullMQ, Dockerode, and Google Gemma 4.",
+    role: "AI / Security Platform Developer",
+    tech: ["Next.js", "NestJS", "Prisma", "PostgreSQL", "Redis", "Docker"],
+    github: "https://github.com/afa-coder/build-with-gemma",
+    demo: "https://www.youtube.com/watch?v=SxfO0R_DM5E"
+  },
+  {
+    id: 14,
+    title: "Windows Key Logger",
+    shortDesc: "Windows input logger capturing keyboard and mouse events with PyInstaller packaging.",
+    fullDesc: "Created a Windows-targeted key logger in Python that records keyboard presses and mouse clicks to a text file in the current user's Local AppData folder. Included PyInstaller support for building a standalone executable and optional startup persistence behavior.",
+    role: "Python Developer",
+    tech: ["Python", "pynput", "tkinter", "PyInstaller"],
+    github: "https://github.com/afa-coder/Key-Logger",
     demo: "https://demo.com"
   }
 ];
